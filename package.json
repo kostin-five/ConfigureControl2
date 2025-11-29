@@ -1,0 +1,23 @@
+{
+  "name": "configcontrol2",
+  "version": "1.0.0",
+  "description": "CLI-инструмент для визуализации графа зависимостей Python-пакетов",
+  "main": "src/index.js",
+  "bin": {
+    "depgraph": "./cli/cli.js"
+  },
+  "scripts": {
+    "start": "node cli/cli.js --help"
+  },
+  "keywords": [
+    "cli",
+    "dependencies",
+    "visualizing"
+  ],
+  "author": "bogdan_kostin",
+  "license": "ISC",
+  "dependencies": {
+    "command": "^1.1.1",
+    "commander": "^14.0.2"
+  }
+}
