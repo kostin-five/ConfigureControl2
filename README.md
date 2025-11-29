@@ -150,4 +150,4 @@ edge [color=gray];
 
 PNG-файл сохраняется как:
 
-![изображение дерева]('webpack-dependencies.png')
+![изображение дерева](webpack-dependencies.png)
